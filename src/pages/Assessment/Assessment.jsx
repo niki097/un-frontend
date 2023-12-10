@@ -9,7 +9,7 @@ import NewAssessment from "../../components/new-assessment/NewAssessment";
 
 export default function Assessment() {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid bg-white mx-4'>
       <div className='row'>
         <div className='col-lg-12'>
           <h1 className='asses-overview-heading'>Assessment Overview</h1>

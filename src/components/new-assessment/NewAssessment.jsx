@@ -6,7 +6,7 @@ export default function NewAssessment() {
 
   return (
             <div className='new-assessment'>
-              {/* <div className='modal-btn-div'>
+              <div className='modal-btn-div'>
                 <button
                   type='button'
                   class='modal-btn'
@@ -57,7 +57,7 @@ export default function NewAssessment() {
               <div className="new-assessment-inner">
                 <h1>New Assessment</h1>
               <p>From here you can add questions of multiple types like MCQs, subjective (text or paragraph)!</p>
-              </div> */}
+              </div>
             </div>
   );
   

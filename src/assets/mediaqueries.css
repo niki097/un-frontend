@@ -1,10 +1,14 @@
-@media (max-width: 480px) {
-   
+@media screen and (max-width: 600px) {
+   .menu-icon{
+    display: flex;
+   }
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
-@media (min-width: 481px) and (max-width: 767px) {
-    
+@media (min-width: 400px) and (max-width: 767px) {
+    .menu-icon{
+        display: flex;
+       }
 }
 
 /* Media Query for Tablets Ipads portrait mode */

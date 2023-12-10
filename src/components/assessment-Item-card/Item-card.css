@@ -6,10 +6,9 @@
     border-radius: 10px;
     padding: 0rem 1rem;
     margin: 1rem 0;
-    height: 213px;
+    height: 209px;
     display: grid;
     align-items: center;
-    justify-content: center;
     background: #fff;
 }
 .item_card:hover{
