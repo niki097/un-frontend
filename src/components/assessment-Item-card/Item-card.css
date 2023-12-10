@@ -1,0 +1,119 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+.item_card {
+    border: 1px solid #DADCE0;
+    border-radius: 10px;
+    padding: 0rem 1rem;
+    margin: 1rem 0;
+    height: 213px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+.item_card:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+}
+.card_top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    padding-top: .4rem;
+}
+.card_top span {
+    background: #EBE8FD;
+    color: #6548EE;
+    border-radius: 25%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_top a{
+    color: #1C4980;
+}
+.card_top span img{
+   height: 20px;
+}
+.card_between p {
+    display: flex;
+    color: #1C4980;
+    font-weight: 600;
+    font-size: 14px;
+}
+.card_between span {
+    padding-left: .7rem;
+    font-weight: 600;
+    color: #1C4980;
+    font-size: 14px;
+    margin-left: .9rem;
+    margin-right: .3rem;
+    border-left: 1px solid #b6d0ee;
+}
+.card_between h5 {
+    color: #a6a7a9;
+    font-size: 14px;
+    margin-top: 0.3rem;
+}
+.card_between h3 {
+    color: #1C4980;
+    font-weight: 600;
+    font-size: 19px;
+}
+.card_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    padding-top: 13px;
+    border-top: 1px dashed #bfc0c1;
+}
+.card_footer_left{
+    display: flex;
+}
+.card_footer_left .duration{
+    padding-left: 1rem;
+}
+.card_footer_left h3{
+    color: #1C4980;
+    font-size: 16px;
+    font-weight: 600;   
+}
+.card_footer_left h4{
+    color: #1C4980;
+    font-size: 13px;
+    font-weight: 600;   
+}
+.card_footer_right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card_footer_right button {
+    border: none;
+    color: #1C4980;
+    border-radius: 11px;
+    border: 1px solid #1C4980;
+    background: #fff;
+    padding: .2rem .5rem;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+}
+.card_footer_right span {
+    background: #6548EE;
+    color: #fff;
+    /* padding: .4rem; */
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: #fff;
+    margin-left: 1rem;
+    display: flex;
+    align-items: 30px;
+    align-items: center;
+    justify-content: center;
+}

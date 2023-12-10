@@ -1,0 +1,38 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+.sidenavbar {
+    padding-top: 1rem;
+    background: #fff;
+}
+.sidenavbar ul{
+    padding-left: 0 ;
+}
+.sidenavbar ul li {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.active{
+    color: #000;
+    border: 1px solid #0073e6;
+    background-color: #ddedff;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.navoptions {
+    display: grid;
+    justify-items: center;
+    color: #1C4980;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: .9rem 0;
+}
+.menu-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+  }
